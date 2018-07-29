@@ -1,7 +1,6 @@
 
 # robot-assignment
 
-================================================
 ************* ROBOT ENVIRONMENT SETUP ************* 
   pip install robotframework
   pip install robotframework-requests
@@ -48,8 +47,7 @@
     Results/crud_results/report.html
     Results/crud_results/output.xml
     
-     
-================================================ 
+      
 ************* OMDB API APPLICATION *************
 ### OMDB URL: http://www.omdbapi.com/
 ### OMDB API Robot Test Files
