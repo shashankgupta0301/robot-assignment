@@ -2,9 +2,9 @@
 # robot-assignment
 
 ## ROBOT ENVIRONMENT SETUP
-  pip install robotframework
-  pip install robotframework-requests
-  Activate the intellbot-selenium2patched plugin in pycharm
+      pip install robotframework
+      pip install robotframework-requests
+      Activate the intellbot-selenium2patched plugin in pycharm
 
 
 ## ************* CRUD APPLICATION SETUP ************* 
