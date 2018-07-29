@@ -1,14 +1,13 @@
 
 # robot-assignment
 
-************* ROBOT ENVIRONMENT SETUP ************* 
+## ROBOT ENVIRONMENT SETUP
   pip install robotframework
   pip install robotframework-requests
   Activate the intellbot-selenium2patched plugin in pycharm
 
-================================================
 
-************* CRUD APPLICATION SETUP ************* 
+## ************* CRUD APPLICATION SETUP ************* 
 ### Steps to Setup CRUD Application
 
       ##  Install virtualenv
@@ -48,7 +47,7 @@
     Results/crud_results/output.xml
     
       
-************* OMDB API APPLICATION *************
+## ************* OMDB API APPLICATION *************
 ### OMDB URL: http://www.omdbapi.com/
 ### OMDB API Robot Test Files
     Resources/omdb_common.robot
