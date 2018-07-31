@@ -1,7 +1,7 @@
 * Variable *
 
 #### Base URI
-${BaseURI}      http://127.0.0.1:8000
+${BaseURL}      http://127.0.0.1:8000
 
 ### List of All Employees
 ${getEmpList}     /apis/emp_list/
@@ -15,16 +15,16 @@ ${dept_id}          electrical
 
 #### Updating Emp Record
 ${upd_resource}      /apis/emp_list/5/edit/
-${upd_deptt}         electronics
-${upd_Fname}           Raghvendra
+${upd_deptt}         CSE
+${upd_Fname}         Orion
 
 ##### Adding a New Emp
 ${add_resource}     /apis/create/
-${add_Fname}        Shashank
-${add_Lname}        Gupta
-${add_Dept}         NTT Data Services
+${add_Fname}        Manoj
+${add_Lname}        Gaur
+${add_Dept}         Painting
 
 ### Delete an existing Record
-${del_Resource}     /apis/emp_list/9/delete/
+${del_Resource}     /apis/emp_list/17/delete/
 
 ### Delete an Non-Existing Record

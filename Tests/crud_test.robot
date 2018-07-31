@@ -8,7 +8,7 @@ Suite Teardown  crud_common.Delete Sessions
 
 
 *** Test Cases ***
-Get All Employees List Information ##List of All Employees##
+Get All Employees List Information      ##List of All Employees##
     Get Employee List   ${getEmpList}
 
 Get Employee Information    ##Verify Emp Exists##
