@@ -9,7 +9,7 @@ Resource        ${EXECDIR}/Tests/omdb_userdata.robot
 *** Keywords ***
 Invoke Session
     Log     I am setting up the session
-    Create Session  omdbapi     ${BaseURI}
+    Create Session  omdbapi     ${BaseURL}
 
 Delete Sessions
     Log     I am destroying all the sessions

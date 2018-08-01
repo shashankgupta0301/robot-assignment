@@ -3,9 +3,11 @@ Documentation    Suite description
 Resource        ${EXECDIR}/Resources/crud_common.robot
 Resource        ${EXECDIR}/Tests/crud_userdata.robot
 
-Suite Setup     crud_common.Invoke Session
-Suite Teardown  crud_common.Delete Sessions
+#Suite Setup     crud_common.Invoke Session
+#Suite Teardown  crud_common.Delete Sessions
 
+Test Setup      crud_common.Invoke Session
+Test Teardown   crud_common.Delete Sessions
 
 *** Test Cases ***
 Get All Employees List Information      ##List of All Employees##
@@ -20,5 +22,8 @@ Update Employee Information     ##Update Emp Details##
 Register/Add New Employee  ##Add a new employee###
     Create Emp      ${add_resource}     ${add_Fname}    ${add_Lname}    ${add_Dept}
 
-Delete Emp Information  ### Delete emp##
-    Delete Emp Details  ${del_Resource}
+#Delete Emp Information  ### Delete emp##
+#    Delete Emp Details  ${del_Resource}
+
+Delete Emp  ### Delete emp Dynamically##
+    Delete Details Dynamically      ${add_resource}     ${add_Fname}    ${add_Lname}    ${add_Dept}

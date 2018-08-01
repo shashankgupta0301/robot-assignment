@@ -20,11 +20,11 @@ ${upd_Fname}         Orion
 
 ##### Adding a New Emp
 ${add_resource}     /apis/create/
-${add_Fname}        Manoj
-${add_Lname}        Gaur
-${add_Dept}         Painting
+${add_Fname}        Laxmi
+${add_Lname}        Arun
+${add_Dept}         Science
 
 ### Delete an existing Record
-${del_Resource}     /apis/emp_list/17/delete/
+${del_Resource}     /apis/emp_list/16/delete/
 
 ### Delete an Non-Existing Record

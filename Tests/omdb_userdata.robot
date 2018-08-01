@@ -1,6 +1,6 @@
 * Variables *
 
-${BaseURI}      http://www.omdbapi.com/
+${BaseURL}      http://www.omdbapi.com/
 ${MvId}       tt1285016
 ${MvTle}        Troy
 ${RYr}         2004

@@ -3,9 +3,11 @@
 Resource        ${EXECDIR}/Resources/omdb_common.robot
 Resource        ${EXECDIR}/Tests/omdb_userdata.robot
 
-Suite Setup     omdb_common.Invoke Session
-Suite Teardown  omdb_common.Delete Sessions
+#Suite Setup     omdb_common.Invoke Session
+#Suite Teardown  omdb_common.Delete Sessions
 
+Test Setup       omdb_common.Invoke Session
+Test Teardown  omdb_common.Delete Sessions
 
 *** Test Cases ***
 Authentication Search By Movie Title
